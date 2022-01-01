@@ -26,6 +26,10 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 PRODUCT_NAME := xtended_lemonade
 PRODUCT_DEVICE := lemonade
+
+# Inherit Google Camera
+$(call inherit-product, vendor/oneplus/apps/lemonadep/config.mk)
+
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2113
