@@ -21,15 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonade device
 $(call inherit-product, device/oneplus/lemonade/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-
-PRODUCT_NAME := xtended_lemonade
-PRODUCT_DEVICE := lemonade
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit Google Camera
 $(call inherit-product, vendor/oneplus/apps/lemonadep/config.mk)
 
+PRODUCT_NAME := derp_lemonade
+PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2113
@@ -42,6 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus9-user 11   release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9_EEA/OnePlus9:11/RKQ1.201105.002/2111112053:user/release-keys
-
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_BUILD_MAINTAINER := mukesh22584

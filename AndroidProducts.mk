@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_lemonade.mk
+    $(LOCAL_DIR)/derp_lemonade.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_lemonade-user \
-    xtended_lemonade-userdebug \
-    xtended_lemonade-eng
+    derp_lemonade-user \
+    derp_lemonade-userdebug \
+    derp_lemonade-eng
