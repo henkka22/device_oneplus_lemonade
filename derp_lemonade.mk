@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common Derpfest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+# Official-ify
+DERP_BUILDTYPE := Official
+
 PRODUCT_NAME := derp_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
