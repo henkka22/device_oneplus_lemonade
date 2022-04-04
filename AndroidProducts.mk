@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonade.mk
+    $(LOCAL_DIR)/derp_lemonade.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lemonade-user \
-    lineage_lemonade-userdebug \
-    lineage_lemonade-eng
+    derp_lemonade-user \
+    derp_lemonade-userdebug \
+    derp_lemonade-eng
