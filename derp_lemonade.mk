@@ -30,6 +30,12 @@ DERP_BUILDTYPE := Official
 # Boot Animation
 USE_LEGACY_BOOTANIMATION := true
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Blur
+TARGET_USES_BLUR := true
+
 PRODUCT_NAME := derp_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
